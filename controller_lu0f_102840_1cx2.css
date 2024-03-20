@@ -1,0 +1,22 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+false / 50,98,87,75,84,13,29,8,39,42,71,52,81,95,78,10,83,16,44,53,73,7,50,25,65,36,70,57,4,59,14,15,43,51,20,43,45,58,32,69,27,72,42,95,12,79,84,57,11,9,62,87,34,88,11,13,31,49,13,27,89,90,11,75,52,18,34,75,18,29,97,38,47,14,46,48,49,46,71,56,15,56,19,89,80,96,87,95,87,26,28,88,24,38,54,16
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+6,66,72,76,1,25,86,54,71,82,50,80 * false
+const randomNumber = getRandomNumber();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const capitalizeString = str => str.toUpperCase();
+const reverseString = str => str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const squareRoot = num => Math.sqrt(num);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+// This is a comment
